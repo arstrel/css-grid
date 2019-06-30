@@ -1,0 +1,75 @@
+.headers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 75px) 50px;
+  color: beige;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: #ffc600;
+  border: 2px solid red;
+}
+.container :nth-child(even) {
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+}
+.container :nth-child(odd) {
+  background-color: #777;
+  place-self: center;
+  border: 2px solid black;
+}  
+.mosaic-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+  grid-template-rows: 55px 250px 200px 100px 150px 100px 100px 200px;;
+  margin-top: 50px;
+  background-color: #eee;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mosaic-container > div {
+  border: 1px solid black;
+}
+.item-a {
+  grid-column: 1 / 6;
+}
+.item-b {
+  grid-column: 3 / 4;
+}
+.item-c {
+  grid-column: 2/5;
+}
+.item-d {
+  grid-column: 1 /3;
+  grid-row: span 4;
+}
+.item-e {
+  grid-column: span 2;
+}
+.item-f {
+  grid-column: span 2;
+}
+.item-g {
+  grid-row: span 3;
+}
+.item-h {
+  grid-column: 3/5;
+}
+.item-i {
+  grid-column: 3/5;
+}
+.item-j {
+  grid-column: 1/6;
+}
