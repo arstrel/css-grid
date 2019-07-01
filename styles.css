@@ -29,15 +29,17 @@
 }  
 .mosaic-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+  grid-template-columns: 1fr 0.6fr 4fr 1fr 1fr;
   grid-template-rows: 55px 250px 200px 100px 150px 100px 100px 200px;;
-  margin-top: 50px;
-  background-color: #eee;
+  margin-top: 30px;
+  background-color: #ddd;
+  gap: 5px;
 }
 .item {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #eee;
 }
 .mosaic-container > div {
   border: 1px solid black;
