@@ -1,9 +1,10 @@
 # css-grid
+
 Practicing css grid
 
 As per caniuse.com
 CSS Grid Layout (level 1)
-Method of using a grid concept to lay out content, providing a mechanism for authors to divide available space for layout into columns and rows using a set of predictable sizing behaviors. Includes support for all grid-* properties and the fr unit.
+Method of using a grid concept to lay out content, providing a mechanism for authors to divide available space for layout into columns and rows using a set of predictable sizing behaviors. Includes support for all grid-\* properties and the fr unit.
 
 Supported by 92.03% of users including ms-edge, firefox, chrome, safari, opera and even IE(partial with the prefix -ms-)
 
